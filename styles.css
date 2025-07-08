@@ -1,0 +1,136 @@
+/*Reset del buscador*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*-------------------------------Body-------------------------------*/
+body {
+  background-color: #fada7a;
+  min-height: 100vh; /* altura minima = altura de la pantalla */
+  display: flex; /*como se comporta un elemento bloque/linea*/
+  flex-direction: column;
+}
+
+/*-------------------------------Header-------------------------------*/
+header {
+  /*Posicionamiento*/
+  position: sticky;
+  top: 0;
+
+  /*Espaciado*/
+  padding: 15px;
+
+  /*Visuales*/
+  background-color: #3674b5;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: #f5eedd;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #f5eedd;
+  text-decoration: underline;
+}
+
+.boton-header {
+  padding: 10px 15px;
+  background-color: #06202b;
+  border-radius: 30px;
+}
+.boton-header:hover {
+  background-color: #021118;
+}
+
+/*-------------------------------Main-------------------------------*/
+
+main {
+  flex: 1; /* el main ocupa todo el espacio disponible de la pantalla */
+}
+
+/*-------Etiquetas de texto-------*/
+h1 {
+  padding: 30px;
+  text-align: center;
+}
+
+h2 {
+  padding: 10px;
+  text-align: center;
+}
+
+h3 {
+  padding: 20px;
+  text-decoration: underline;
+  text-decoration-color: #578fca;
+  text-decoration-thickness: 1px;
+}
+
+p {
+  padding: 3px 10px 5px 15px;
+}
+
+a {
+  color: #3674b5;
+  text-decoration: none;
+}
+
+/*-------Bloques-------*/
+section {
+  /*Posicionamiento*/
+  margin: 0 auto;
+  margin-bottom: 25px;
+
+  /*Dimensiones*/
+  width: 90%;
+
+  /*Espaciado*/
+  padding: 0px 25px 20px 25px;
+
+  /*Visuales*/
+  border-radius: 10px;
+  background-color: #f5f0cd;
+  border-left: 4px solid #3674b5;
+}
+
+/*-------Listas-------*/
+
+li {
+  margin-bottom: 10px;
+}
+
+.lista-experiencia {
+  padding: 20px 10px 0px 20px;
+}
+
+/*-------Multimedia-------*/
+img {
+  width: 420px;
+  height: 250px;
+}
+iframe {
+  width: 420px;
+  height: 250px;
+  display: block; /*centar*/
+  margin: 0 auto;
+}
+
+/*-------------------------------footer-------------------------------*/
+footer {
+  /*Espaciado*/
+  padding: 20px 150px;
+
+  /*Visuales*/
+  background-color: #3674b5;
+
+  /*Texto*/
+  text-align: center;
+}
