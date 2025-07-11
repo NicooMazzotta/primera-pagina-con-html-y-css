@@ -31,6 +31,11 @@ nav {
   justify-content: center;
 }
 
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
 nav a {
   color: #f5eedd;
   text-decoration: none;
