@@ -1,0 +1,15 @@
+Hola, dejo este txt para mencionar las cosas a modificar de la primera entrega. estos fueron las correcciones.
+
+ (1)- Es importante mantener las buenas prácticas en la organización de la carpeta raíz... 
+ El index va suelto, los otros 4 html van dentro de una carpeta llamada page o paginas o como desees, el 
+ archivo css dentro de otra carpeta y todos los archivos multimedia dentro de una carpeta específica... 
+ Ten en cuenta que vas a tener que modificar los href de los enlaces al moverlos ya que la ruta va a cambiar, 
+ ya sea del nav, del link de css de los head y del contenido multimedia.
+
+(2)- Recordá que el menú de navegación del sitio debe estar dentro de una etiqueta nav y dentro de esta una 
+ lista de etiquetas, por lo que debes colocar un ul que contenga todos los LI y un LI para cada A. 
+
+ ----------------------------------------------------------------------------------------------------
+
+(1) Se crearon las carpetas solicitadas y se editaron todas las rutas.
+(2) se agrego la ul al nav
