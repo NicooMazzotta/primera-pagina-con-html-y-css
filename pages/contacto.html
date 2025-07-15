@@ -52,7 +52,7 @@
 
       <!-- Mails -->
       <section>
-        <h2>Email</h2>
+        <h2>Mi email:</h2>
         <a href="mailto:nicoo-mazzotta@outlook.com" target="_blank"
           >nicoo-mazzotta@outlook.com
         </a>
@@ -60,39 +60,77 @@
 
       <!-- Redes sociales -->
       <section>
-        <h2>Redes sociales</h2>
+        <h2>Mis redes sociales:</h2>
 
         <!-- Instragram -->
         <div>
-          <h3>Instagram</h3>
-          <a href="https://www.instagram.com/nicoomazzotta/" target="_blank"
-            >@nicoomazzotta
-          </a>
+          <h4>
+            Instagram:
+            <a href="https://www.instagram.com/nicoomazzotta/" target="_blank"
+              >@nicoomazzotta
+            </a>
+          </h4>
         </div>
       </section>
 
       <!-- Mensaje de contacto -->
       <section>
         <h2>Dejame un mensaje</h2>
-        <form action="">
-          <label for="nombre">Nombre</label>
-          <input type="text" name="nombre" id="nombre" required /><br /><br />
 
-          <label for="apellido">Apellido</label>
-          <input
-            type="text"
-            name="apellido"
-            id="apellido"
-            required
-          /><br /><br />
-
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email" required /><br /><br />
-
-          <label for="mensaje">Mensaje</label>
-          <textarea name="mensaje" id="mensaje" required></textarea><br /><br />
-
-          <input type="submit" value="Enviar" />
+        <form>
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="nombre"
+              aria-describedby="nombre"
+            />
+            <div id="nombreHelp" class="form-text">
+              En este campo ingresa tu nombre.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="apellido" class="form-text">Apellido:</label>
+            <input
+              type="apellido"
+              class="form-control"
+              id="apellido"
+              aria-describedby="apellido"
+            />
+            <div id="apellidoHelp" class="form-text">
+              En este campo ingresa tu apellido.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email:</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text">
+              En este campo ingresa tu email.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="mensaje" class="form-label"
+              >Dejame tu comentario:</label
+            >
+            <div class="form-floating">
+              <textarea
+                class="form-control"
+                placeholder="Leave a comment here"
+                id="mensaje"
+              ></textarea>
+              <label for="floatingTextarea">Comments</label>
+            </div>
+            <div id="mensaje" class="form-text">
+              En este campo deja tu mensaje!.
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
       </section>
     </main>
