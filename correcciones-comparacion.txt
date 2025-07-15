@@ -13,6 +13,7 @@ Hola, dejo este txt para mencionar las cosas a modificar de la primera entrega. 
 
 (1) Se crearon las carpetas solicitadas y se editaron todas las rutas. ✅
 (2) se agrego la ul al nav ✅
+    (posteriormente cuando se paso a un nav con bootstrap se saco la lista)
 
 -----------------------------------------------------------------------------------------------------
 
@@ -21,11 +22,19 @@ A implementar para la segunda entrega:
 ✅ Estructura avanzada de TODO el proyecto (los 5 html). Es decir, todos los html ya deben tener contenido 
 suficiente y el mismo debe estar maquetado/acomodado para la vista desktop con flex,grid, bootstrap, etc.
 
+    Hecho! todas las plantillas se acomodan mayoritariamente con flex.
+
 ✅ 2 de esos html deben, ser responsive (adaptar su contenido para dispositivos mobile y tablet Para 
 eso pueden usar grid, flex y media queries, el sistema de grillas de bootstrap o una combinación de ambos.
+
+    Hecho! todas las plantillas se re-acomodan dependiendo la vista.
 
 ✅ El uso de componentes de Bootstrap si no se aplica sistema de Grillas para el responsive. También 
 pueden usar ambas opciones, componentes y grilla.
 
+    Hecho! todas las plantillas tienen el nav con bootstrap y la planilla de contacto tiene el form.
+
 ✅ Entrega mediante link de github público. No se aceptan zip o rar. Github Page debe estar activo para 
 que se pueda corregir, si o si, pero el link que se envía es el del repositorio (donde se ve el código)
+
+    Hecho!

@@ -135,21 +135,17 @@ footer {
 }
 
 @media (max-width: 768px) {
-  body {
-    background-color: gray;
-  }
-
   .bloque-multimedia {
     display: flex;
     flex-direction: column;
   }
 
-  /*-------Multimedia-------*/
   .bloque-multimedia img {
     padding-bottom: 10px;
     width: 80%;
     height: auto;
   }
+
   .bloque-multimedia iframe {
     width: 80%;
     height: auto;
@@ -157,10 +153,6 @@ footer {
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-  body {
-    background-color: rgb(230, 24, 24);
-  }
-
   .bloque-multimedia {
     display: flex;
     flex-direction: column;
