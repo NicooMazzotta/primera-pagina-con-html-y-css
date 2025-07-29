@@ -1,0 +1,242 @@
+// Variables
+$color-primario: #fada7a;
+$color-secundario: #3674b5;
+$color-bloques: #f5f0cd;
+$color-fondo-oscuro: #06202b;
+
+//Mixing
+
+@mixin efectos-hover($scale: 1.05, $shadow: true) {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: scale($scale);
+
+    @if $shadow {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+  }
+}
+
+@mixin centrar-texto($padding: 10px) {
+  padding: $padding;
+  text-align: center;
+}
+
+@mixin elemento-multimedia($width: 40%) {
+  width: $width;
+  height: auto;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+@mixin responsive-multimedia {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+/*Reset del buscador*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*-------------------------------Body-------------------------------*/
+body {
+  background-color: $color-primario;
+  min-height: 100vh; /* altura minima = altura de la pantalla */
+  display: flex; /*como se comporta un elemento bloque/linea*/
+  flex-direction: column;
+}
+
+/*-------------------------------Header-------------------------------*/
+header {
+  position: sticky;
+  top: 0;
+
+  padding: 15px;
+  z-index: 1000;
+
+  background-color: $color-secundario;
+}
+
+nav {
+  .navbar-brand,
+  .nav-link {
+    transition: transform 0.3s ease !important;
+
+    @include efectos-hover(1.2, false); // Usando mixin sin sombra
+  }
+}
+
+/*-------------------------------Main-------------------------------*/
+
+main {
+  flex: 1; /* el main ocupa todo el espacio disponible de la pantalla */
+}
+
+/*-------Etiquetas de texto-------*/
+h1 {
+  @include centrar-texto(30px);
+}
+
+h2 {
+  @include centrar-texto(10px);
+}
+
+h3 {
+  @include centrar-texto(20px);
+}
+
+p {
+  padding: 3px 10px 5px 15px;
+}
+
+a {
+  color: $color-secundario;
+  text-decoration: none;
+}
+
+/*-------Bloques-------*/
+
+section {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  width: 80%;
+  padding: 0px 25px 20px 25px;
+  border-radius: 10px;
+  background-color: $color-bloques;
+  border-top: 4px solid $color-secundario;
+  border-bottom: 6px solid $color-secundario;
+  animation: pulso 2s infinite;
+
+  @include efectos-hover(1.05, true); // Reemplaza todo el hover anterior
+}
+
+//Animacion de los bloques
+@keyframes pulso {
+  0% {
+    box-shadow: 0 0 0 0 rgba(33, 128, 230, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(29, 67, 107, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(2, 11, 20, 0);
+  }
+}
+
+.bloque-multimedia {
+  @include responsive-multimedia;
+
+  img {
+    @include elemento-multimedia(40%);
+  }
+
+  iframe {
+    @include elemento-multimedia(40%);
+    height: 300px;
+  }
+}
+
+/*-------------------------------footer-------------------------------*/
+footer {
+  background-color: $color-secundario;
+  padding-top: 14px;
+  text-align: center;
+
+  p {
+    color: white;
+    overflow: hidden;
+    border-right: 2px solid;
+    white-space: nowrap;
+    margin: 0 auto;
+    display: inline-block;
+    animation: copiando 6s steps(40, end),
+      animacion-barra 0.75s step-end infinite;
+  }
+}
+
+@keyframes copiando {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes animacion-barra {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}
+
+@media (max-width: 768px) {
+  .bloque-multimedia {
+    display: flex;
+    flex-direction: column;
+
+    img {
+      padding-bottom: 10px;
+      width: 80%;
+      height: auto;
+    }
+
+    iframe {
+      width: 80%;
+      height: auto;
+    }
+  }
+
+  //footer sin animacion
+  footer {
+    p {
+      white-space: normal;
+      border-right: none;
+      animation: none;
+      display: block;
+    }
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .bloque-multimedia {
+      display: flex;
+      flex-direction: column;
+
+      img {
+        padding-bottom: 10px;
+        width: 80%;
+        height: 200%;
+      }
+
+      iframe {
+        width: 76%;
+        height: auto;
+      }
+    }
+
+    //footer sin animacion
+    footer {
+      p {
+        white-space: normal;
+        border-right: none;
+        animation: none;
+        display: block;
+      }
+    }
+  }
+}
