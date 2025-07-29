@@ -1,4 +1,65 @@
-Hola, dejo este txt para mencionar las cosas a modificar de la primera entrega. estos fueron las correcciones.
+Hola, dejo este txt para mencionar las modificaciones y como vienen. estas fueron las correcciones.
+
+👉🏻 Uso de animaciones (keyframe o librería a elección, de las vistas en clase u otra). Gradiente no es animación.
+
+    -Se agregaron para resaltar el nav, las secciones y el footer
+
+👉🏻 Sitio full responsive para mobile (todos los html adaptados a mobile, sin scroll horizontal (overflow-x))
+
+    -En todos los html es 100% funcional para celular y tablet
+
+👉🏻 Sass aplicado en 2 secciones mínimo del proyecto. Incluir: nesting (anidamiento) y variables.
+
+    -Se agrego el anidamiento a todos los elementos y variables para los colores
+
+👉🏻 No contenido de relleno (ni lorem ni imágenes o textos que no sean los del proyecto).
+
+    -No cuenta con relleno
+
+👉🏻 Entrega por link github y con github page activo.
+
+    -hecho
+
+👉🏻 Revisar la correcciones de las entregas anteriores y sumar lo que falte. Las entregas son acumulativas.
+
+    -nada a corregir de la entrega anterior
+
+
+---------------------------------------------------------------------------------------------------
+        Segunda entrega:
+---------------------------------------------------------------------------------------------------
+
+A implementar para la segunda entrega:
+
+✅ Estructura avanzada de TODO el proyecto (los 5 html). Es decir, todos los html ya deben tener contenido 
+suficiente y el mismo debe estar maquetado/acomodado para la vista desktop con flex,grid, bootstrap, etc.
+
+    -Hecho! todas las plantillas se acomodan mayoritariamente con flex.
+
+✅ 2 de esos html deben, ser responsive (adaptar su contenido para dispositivos mobile y tablet Para 
+eso pueden usar grid, flex y media queries, el sistema de grillas de bootstrap o una combinación de ambos.
+
+    -Hecho! todas las plantillas se re-acomodan dependiendo la vista.
+
+✅ El uso de componentes de Bootstrap si no se aplica sistema de Grillas para el responsive. También 
+pueden usar ambas opciones, componentes y grilla.
+
+    -Hecho! todas las plantillas tienen el nav con bootstrap y la planilla de contacto tiene el form.
+
+✅ Entrega mediante link de github público. No se aceptan zip o rar. Github Page debe estar activo para 
+que se pueda corregir, si o si, pero el link que se envía es el del repositorio (donde se ve el código)
+
+    -Hecho!
+
+
+
+Correccion: Gran trabajo Nicolas, felicitaciones. Tu proyecto cumple con lo solicitado. Vi que pudiste
+ implementar boostrap, lo cual es genial porque es una herramienta bastante potente para poder desarrollar
+ mas rapido !!
+
+---------------------------------------------------------------------------------------------------
+        Correcciones de la primer entrega:
+---------------------------------------------------------------------------------------------------
 
  (1)- Es importante mantener las buenas prácticas en la organización de la carpeta raíz... 
  El index va suelto, los otros 4 html van dentro de una carpeta llamada page o paginas o como desees, el 
@@ -17,24 +78,3 @@ Hola, dejo este txt para mencionar las cosas a modificar de la primera entrega. 
 
 -----------------------------------------------------------------------------------------------------
 
-A implementar para la segunda entrega:
-
-✅ Estructura avanzada de TODO el proyecto (los 5 html). Es decir, todos los html ya deben tener contenido 
-suficiente y el mismo debe estar maquetado/acomodado para la vista desktop con flex,grid, bootstrap, etc.
-
-    Hecho! todas las plantillas se acomodan mayoritariamente con flex.
-
-✅ 2 de esos html deben, ser responsive (adaptar su contenido para dispositivos mobile y tablet Para 
-eso pueden usar grid, flex y media queries, el sistema de grillas de bootstrap o una combinación de ambos.
-
-    Hecho! todas las plantillas se re-acomodan dependiendo la vista.
-
-✅ El uso de componentes de Bootstrap si no se aplica sistema de Grillas para el responsive. También 
-pueden usar ambas opciones, componentes y grilla.
-
-    Hecho! todas las plantillas tienen el nav con bootstrap y la planilla de contacto tiene el form.
-
-✅ Entrega mediante link de github público. No se aceptan zip o rar. Github Page debe estar activo para 
-que se pueda corregir, si o si, pero el link que se envía es el del repositorio (donde se ve el código)
-
-    Hecho!
