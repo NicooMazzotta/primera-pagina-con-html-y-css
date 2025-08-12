@@ -1,0 +1,18 @@
+header {
+  position: sticky;
+  top: 0;
+
+  padding: 15px;
+  z-index: 1000;
+
+  background-color: $color-secundario;
+}
+
+nav {
+  .navbar-brand,
+  .nav-link {
+    transition: transform 0.3s ease !important;
+
+    @include efectos-hover(1.2, false); // Usando mixin sin sombra
+  }
+}

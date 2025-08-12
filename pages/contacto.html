@@ -2,15 +2,33 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
+    <!-- SEO básico -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contacta con Nicolás Mazzotta. Encuentra mis datos de contacto, redes sociales y formulario para comunicarte conmigo. Desarrollador web disponible para oportunidades laborales."
+    />
+    <meta
+      name="keywords"
+      content="Nicolás Mazzotta, contacto, desarrollador web, email, teléfono, redes sociales, formulario contacto, programador"
+    />
+    <meta name="author" content="Nicolás Mazzotta" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Título -->
+    <title>Contacto - Nicolás Mazzotta | Desarrollador Web</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon" />
+    <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"
     />
+    <!-- Estilos -->
     <link rel="stylesheet" href="../styles/styles.css" />
-    <title>Contacto - Nicolas Mazzotta</title>
   </head>
 
   <body>
@@ -18,7 +36,9 @@
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html">Inicio</a>
+          <a class="navbar-brand" href="../index.html" title="Volver al inicio"
+            >Inicio</a
+          >
           <button
             class="navbar-toggler"
             type="button"
@@ -32,13 +52,29 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link" href="./experiencia.html">Experiencia</a>
-              <a class="nav-link" href="./estudios.html">Estudios</a>
-              <a class="nav-link" href="./proyectos.html">Proyectos</a>
+              <a
+                class="nav-link"
+                href="./experiencia.html"
+                title="Ver mi experiencia"
+                >Experiencia</a
+              >
+              <a
+                class="nav-link"
+                href="./estudios.html"
+                title="Ver mis estudios"
+                >Estudios</a
+              >
+              <a
+                class="nav-link"
+                href="./proyectos.html "
+                title="Ver mis proyectos"
+                >Proyectos</a
+              >
               <a
                 class="nav-link active"
                 aria-current="page"
                 href="./contacto.html"
+                title="Ver formas de contactarme"
                 >Contactos</a
               >
             </div>
@@ -53,7 +89,10 @@
       <!-- Mails -->
       <section>
         <h2>Mi email:</h2>
-        <a href="mailto:nicoo-mazzotta@outlook.com" target="_blank"
+        <a
+          href="mailto:nicoo-mazzotta@outlook.com"
+          target="_blank"
+          title="Mi email"
           >nicoo-mazzotta@outlook.com
         </a>
       </section>
@@ -66,7 +105,10 @@
         <div>
           <h4>
             Instagram:
-            <a href="https://www.instagram.com/nicoomazzotta/" target="_blank"
+            <a
+              href="https://www.instagram.com/nicoomazzotta/"
+              target="_blank"
+              title="Mi instagram"
               >@nicoomazzotta
             </a>
           </h4>
@@ -91,9 +133,9 @@
             </div>
           </div>
           <div class="mb-3">
-            <label for="apellido" class="form-text">Apellido:</label>
+            <label for="apellido" class="form-label">Apellido:</label>
             <input
-              type="apellido"
+              type="text"
               class="form-control"
               id="apellido"
               aria-describedby="apellido"
@@ -124,9 +166,9 @@
                 placeholder="Leave a comment here"
                 id="mensaje"
               ></textarea>
-              <label for="floatingTextarea">Comments</label>
+              <label for="mensaje">Comments</label>
             </div>
-            <div id="mensaje" class="form-text">
+            <div id="mensajeHelp" class="form-text">
               En este campo deja tu mensaje!.
             </div>
           </div>

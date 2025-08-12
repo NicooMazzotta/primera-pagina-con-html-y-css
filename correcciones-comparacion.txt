@@ -1,29 +1,62 @@
-Hola, dejo este txt para mencionar las modificaciones y como vienen. estas fueron las correcciones.
+Hola, dejo este txt para mencionar las modificaciones y como vienen. estas fueron las correcciones...
+
+---------------------------------------------------------------------------------------------------
+        Entrega final:
+---------------------------------------------------------------------------------------------------
+    Consigna:
+    
+✓ Deberás entregar la versión final de tu sitio cargada hosting, aplicando cada
+una de las características vistas en el transcurso del curso: HTML, CSS,
+maquetado (box modex, flex, grid), uso de Bootstrap, SASS, animaciones y
+SEO, correspondiente a la entrega final de tu proyecto.
+
+✓ Full resposive: vista desktop, tablet y mobile (desde 320px hasta 1200 aprox).
+Se debe entregar
+
+    Se debe entregar:
+
+✓ Estructura final de la web: Respetando los criterios trabajados respecto a
+legibilidad, adaptación al framework (bootstrap), uso de etiquetas semánticas y
+no semánticas, y prácticas de SEO (meta, alt, title).
+    -Hecho
+
+✓ Estilo final de la web: Aplicando los criterios trabajados respecto a estructura
+visual, diseño atractivo y responsive, y reciclado de código.
+    -Hecho
+
+✓ Sass: variables, nesting, partials, extend o mixin.
+    -Hecho
+
+✓ Subida al servidor: Utilizar cualquier servicio de hosting para poner el sitio web
+online
+    -Hecho
+---------------------------------------------------------------------------------------------------
+        Tercera entrega:
+---------------------------------------------------------------------------------------------------
 
 👉🏻 Uso de animaciones (keyframe o librería a elección, de las vistas en clase u otra). Gradiente no es animación.
-
     -Se agregaron para resaltar el nav, las secciones y el footer
 
 👉🏻 Sitio full responsive para mobile (todos los html adaptados a mobile, sin scroll horizontal (overflow-x))
-
     -En todos los html es 100% funcional para celular y tablet
 
 👉🏻 Sass aplicado en 2 secciones mínimo del proyecto. Incluir: nesting (anidamiento) y variables.
-
     -Se agrego el anidamiento a todos los elementos y variables para los colores
 
 👉🏻 No contenido de relleno (ni lorem ni imágenes o textos que no sean los del proyecto).
-
     -No cuenta con relleno
 
 👉🏻 Entrega por link github y con github page activo.
-
     -hecho
 
 👉🏻 Revisar la correcciones de las entregas anteriores y sumar lo que falte. Las entregas son acumulativas.
-
     -nada a corregir de la entrega anterior
 
+---------------------------------------------------------------------------------------------------
+        Correcciones de la tercera entrega:
+---------------------------------------------------------------------------------------------------
+Felicitaciones gran trabajo realizado. Tu proyecto cumple con todo lo solicitado para esta entrega. 
+Segui asi que estas haciendo un excelente trabajo!
 
 ---------------------------------------------------------------------------------------------------
         Segunda entrega:
@@ -51,9 +84,11 @@ que se pueda corregir, si o si, pero el link que se envía es el del repositorio
 
     -Hecho!
 
+---------------------------------------------------------------------------------------------------
+        Correcciones de la segunda entrega:
+---------------------------------------------------------------------------------------------------
 
-
-Correccion: Gran trabajo Nicolas, felicitaciones. Tu proyecto cumple con lo solicitado. Vi que pudiste
+ Gran trabajo Nicolas, felicitaciones. Tu proyecto cumple con lo solicitado. Vi que pudiste
  implementar boostrap, lo cual es genial porque es una herramienta bastante potente para poder desarrollar
  mas rapido !!
 
@@ -77,4 +112,3 @@ Correccion: Gran trabajo Nicolas, felicitaciones. Tu proyecto cumple con lo soli
     (posteriormente cuando se paso a un nav con bootstrap se saco la lista)
 
 -----------------------------------------------------------------------------------------------------
-

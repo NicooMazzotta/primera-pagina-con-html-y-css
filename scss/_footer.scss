@@ -1,0 +1,35 @@
+footer {
+  background-color: $color-secundario;
+  padding-top: 14px;
+  text-align: center;
+
+  p {
+    color: white;
+    overflow: hidden;
+    border-right: 2px solid;
+    white-space: nowrap;
+    margin: 0 auto;
+    display: inline-block;
+    animation: copiando 6s steps(40, end),
+      animacion-barra 0.75s step-end infinite;
+  }
+}
+
+@keyframes copiando {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes animacion-barra {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}
