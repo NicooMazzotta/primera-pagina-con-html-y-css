@@ -1,0 +1,38 @@
+//Mixing
+
+@mixin efectos-hover($scale: 1.05, $shadow: true) {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: scale($scale);
+
+    @if $shadow {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+  }
+}
+
+@mixin centrar-texto($padding: 10px) {
+  padding: $padding;
+  text-align: center;
+}
+
+@mixin elemento-multimedia($width: 40%) {
+  width: $width;
+  height: auto;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+@mixin responsive-multimedia {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
